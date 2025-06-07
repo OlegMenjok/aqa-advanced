@@ -1,0 +1,24 @@
+{
+  "name": "aqa-advanced",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "AQA ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node nodeBasics/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OlegMenjok/aqa-advanced.git"
+  },
+  "author": "Oleh Menok",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OlegMenjok/aqa-advanced/issues"
+  },
+  "homepage": "https://github.com/OlegMenjok/aqa-advanced#readme",
+  "dependencies": {
+    "chalk": "^5.4.1"
+  }
+}
