@@ -8,7 +8,6 @@ function checkOrder(available, ordered) {
         return;
     }
     console.log('Your order is accepted');
-
 }
 checkOrder(12, 40);
 checkOrder(2, 0);
