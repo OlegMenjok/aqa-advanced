@@ -16,7 +16,7 @@ class EBook extends Book {
     }
 
     set format (value) {
-        if (value <= 0) throw new Error('Value should be not less or equal 0')
+        if (!value) throw new Error('Value should be not empty')
         this._format = value
     }
 
