@@ -1,3 +1,4 @@
-npm run prettier
-npm run eslint-fix
-npm run eslint
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
+npm run prettier && git add . && npm run eslint-fix && npm run eslint

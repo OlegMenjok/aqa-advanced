@@ -1,12 +1,12 @@
-const firstPerson = 'Oleh';
-const secondPerson = 'Ivan';
+const firstPerson = "Oleh";
+const secondPerson = "Ivan";
 
 const congratPersons1 =
-  'Hello ' +
+  "Hello " +
   firstPerson +
-  ' and ' +
+  " and " +
   secondPerson +
-  ', it`s a first congratulation!';
+  ", it`s a first congratulation!";
 const congratPersons2 = `Hello ${firstPerson} and ${secondPerson}, it's a second congratulation!`;
 
 console.log(congratPersons1);
