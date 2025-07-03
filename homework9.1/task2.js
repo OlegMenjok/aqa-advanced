@@ -1,7 +1,7 @@
 const book = {};
 
-book.title = "Harry Potter and the Chamber of Secrets";
-book.author = "J.K. Rowling";
+book.title = 'Harry Potter and the Chamber of Secrets';
+book.author = 'J.K. Rowling';
 book.year = 2002;
 
 const { title, author } = book;

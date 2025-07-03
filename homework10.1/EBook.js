@@ -1,5 +1,5 @@
-import { Book } from "./Book.js";
-import { book1, book2 } from "./Book.js";
+import { Book } from './Book.js';
+import { book1, book2 } from './Book.js';
 
 class EBook extends Book {
   constructor(name, author, year, format) {
@@ -18,7 +18,7 @@ class EBook extends Book {
   }
 
   set format(value) {
-    if (!value) throw new Error("Value should be not empty");
+    if (!value) throw new Error('Value should be not empty');
     this._format = value;
   }
 
@@ -27,12 +27,12 @@ class EBook extends Book {
   }
 }
 
-const ebook1 = new EBook("Madagaskar", "Tom Taylor", 2010, "Electronic book");
-ebook1._author = "Ted";
+const ebook1 = new EBook('Madagaskar', 'Tom Taylor', 2010, 'Electronic book');
+ebook1._author = 'Ted';
 ebook1.printInfo();
 
 const earlierBook = EBook.arrayOfEntity(ebook1, book1, book2); // task 4
 console.log(earlierBook);
 
-const createdBook = EBook.createEBook(book1, "PDF"); // task 5
+const createdBook = EBook.createEBook(book1, 'PDF'); // task 5
 console.log(createdBook);

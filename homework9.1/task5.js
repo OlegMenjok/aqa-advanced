@@ -1,18 +1,18 @@
 const users = [
   {
-    userName: "John",
+    userName: 'John',
     age: 30,
-    city: "New York",
+    city: 'New York',
   },
   {
-    userName: "Bob",
+    userName: 'Bob',
     age: 11,
-    city: "Texas",
+    city: 'Texas',
   },
   {
-    userName: "Taylor",
+    userName: 'Taylor',
     age: 67,
-    city: "London",
+    city: 'London',
   },
 ];
 

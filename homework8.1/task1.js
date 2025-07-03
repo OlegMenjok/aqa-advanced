@@ -14,6 +14,6 @@ for (let i = 0; i < numbers.length; i++) {
   }
 }
 
-console.log("Count of positive numders = ", positiveCount);
-console.log("Count of negative numders = ", negativeCount);
-console.log("Count of zero numders = ", zeroCount);
+console.log('Count of positive numders = ', positiveCount);
+console.log('Count of negative numders = ', negativeCount);
+console.log('Count of zero numders = ', zeroCount);

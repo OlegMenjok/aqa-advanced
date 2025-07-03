@@ -1,5 +1,5 @@
-const userName = "John";
-const userAge = "18";
+const userName = 'John';
+const userAge = '18';
 const isActive = true;
 const categoryOfUser = null;
 const hasCar = undefined;

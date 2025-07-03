@@ -16,7 +16,7 @@ export class Book {
   }
 
   set name(value) {
-    if (!value) throw new Error("Value should be not empty");
+    if (!value) throw new Error('Value should be not empty');
     this._name = value;
   }
 
@@ -25,7 +25,7 @@ export class Book {
   }
 
   set author(value) {
-    if (!value) throw new Error("Value should be not empty");
+    if (!value) throw new Error('Value should be not empty');
     this._author = value;
   }
 
@@ -34,7 +34,7 @@ export class Book {
   }
 
   set year(value) {
-    if (value <= 0) throw new Error("Value should be not less or equal 0");
+    if (value <= 0) throw new Error('Value should be not less or equal 0');
     this._year = value;
   }
 
@@ -45,9 +45,9 @@ export class Book {
   }
 }
 
-export const book1 = new Book("History of secret town", "Unknown", 1834);
+export const book1 = new Book('History of secret town', 'Unknown', 1834);
 book1.year = 1999;
 book1.printInfo();
 
-export const book2 = new Book("Control Your Mind", "Eric Robertson", 2019);
+export const book2 = new Book('Control Your Mind', 'Eric Robertson', 2019);
 book2.printInfo();
