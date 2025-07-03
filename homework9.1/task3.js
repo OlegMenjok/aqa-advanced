@@ -10,6 +10,6 @@ car2.brand = 'BMW';
 car2.model = 'M8 Competition';
 car2.owner = 'Tom';
 
-const car3 = {...car1, ...car2}
+const car3 = { ...car1, ...car2 };
 
 console.log(car3);
