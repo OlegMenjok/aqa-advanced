@@ -20,5 +20,11 @@
   "homepage": "https://github.com/OlegMenjok/aqa-advanced#readme",
   "dependencies": {
     "chalk": "^5.4.1"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.30.1",
+    "eslint": "^9.30.1",
+    "globals": "^16.3.0",
+    "prettier": "3.6.2"
   }
 }
