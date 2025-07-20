@@ -1,6 +1,8 @@
 async function getTodos() {
   try {
-    const response = await fetch('https://jsonplaceholder.typicode.com/todos/1');
+    const response = await fetch(
+      'https://jsonplaceholder.typicode.com/todos/1',
+    );
     if (!response.ok) {
       throw new Error('An error happened');
     }
@@ -14,7 +16,9 @@ async function getTodos() {
 
 async function getUsers() {
   try {
-    const response = await fetch('https://jsonplaceholder.typicode.com/users/1');
+    const response = await fetch(
+      'https://jsonplaceholder.typicode.com/users/1',
+    );
     if (!response.ok) {
       throw new Error('An error happened');
     }
@@ -28,7 +32,10 @@ async function getUsers() {
 
 async function runAll() {
   try {
-    const [todoResult, userResult] = await Promise.all([getTodos(), getUsers()]);
+    const [todoResult, userResult] = await Promise.all([
+      getTodos(),
+      getUsers(),
+    ]);
     console.log('Todo:', todoResult);
     console.log('User:', userResult);
   } catch (error) {
