@@ -5,7 +5,7 @@
   "description": "AQA ",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
     "start": "node nodeBasics/index.js",
     "prettier": "npx prettier --write .",
     "eslint": "eslint . --ext .ts",
@@ -23,7 +23,9 @@
   },
   "homepage": "https://github.com/OlegMenjok/aqa-advanced#readme",
   "dependencies": {
-    "chalk": "^5.4.1"
+    "axios": "^1.10.0",
+    "chalk": "^5.4.1",
+    "jest": "^30.0.4"
   },
   "devDependencies": {
     "@eslint/js": "^9.30.1",
