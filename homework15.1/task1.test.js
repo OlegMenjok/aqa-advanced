@@ -11,7 +11,6 @@ describe('tests', () => {
     } catch (error) {
       // Assert
       expect(error.message).toEqual('unable to verify the first certificate');
-      console.log(error.message);
     }
   });
 });
