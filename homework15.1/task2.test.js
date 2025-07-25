@@ -2,7 +2,7 @@ const axios = require('axios');
 
 test('GET /comments?postId=1 | 200 | should return correct headers and response', async () => {
   // Act
-  const res = await axios.get(`https://jsonplaceholder.typicode.com/comments`, {
+  const res = await axios.get('https://jsonplaceholder.typicode.com/comments', {
     params: { postId: 1 },
     headers: {
       'X-Test-Header': 'test',
